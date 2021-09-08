@@ -21,7 +21,7 @@ The Crazyswarm repository is a repository manageged by a third part (Not bitcraz
 There is a whole website dedicated to the installing the repository, how to use it...etc
 https://crazyswarm.readthedocs.io/en/latest/
 
-Start on the installation tab and make sure the "Pyhsical Robots and simultion" tab is selected. Go through the listed instructions.
+Start on the installation tab and make sure the "Pyhsical Robots and simultion" tab is selected. Go through the listed instructions. Install the depencies one by one.
 For Part 3, installing the dependencies, you must follow the github page below in order to installthe gcc compiler:
 
 https://github.com/ilg-archived/arm-none-eabi-gcc/releases/tag/v8.2.1-1.7
@@ -33,6 +33,12 @@ It is important to source ROS every new terminal you open. To do this go to craz
 source ros_ws/devel/setup.bash
 ```
 Follow the configuration tab on https://crazyswarm.readthedocs.io/en/latest/ to configure the radio and crazyflies.
+
+Before configuring the radio make sure to install python3-usb using:
+```sh
+sudo apt-get install python3-usb
+```
+
 First crazyflie should have the address:0xE7E7E7E701
 Second Crazyflie should be: 0xE7E7E7E702
 Second Crazyflie should be: 0xE7E7E7E703 
