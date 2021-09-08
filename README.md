@@ -57,7 +57,7 @@ cd src
 cd crazyswarm
 cd launch
 rm hover_swarm.launch
-git clone https://github.com/tbaranoski/Flow_Deck_Positioning/blob/main/hover_swarm.launch
+git clone https://github.com/tbaranoski/Flow_Deck_Positioning.git
 ```
 ## Configuring Controller and Enabling Controller Permissions
 You can use an XBOX or Playstation controller.
